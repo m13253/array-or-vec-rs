@@ -13,7 +13,7 @@ array-or-vec = { "git" = "https://github.com/m13253/array-or-vec-rs" }
 Write your code that uses the trait:
 ```rust
 use array_or_vec::ArrayOrVec;
-use num::NumRef;
+use num_traits::NumRef;  // From crate "num_traits"
 
 fn sum<T, A>(a: &A) -> T
 where
@@ -26,7 +26,7 @@ where
 
 ## FAQ
 
-1. Why don't you publish your cargo to crates.io?
+1. Why don't you publish this package to crates.io?
 
-   Because I can't find a good name for this cargo.
+   Because I can't find a good name for this package.
    Crates.io doesn't allow me to change the name after publishing.
