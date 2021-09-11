@@ -1,5 +1,5 @@
 [package]
-name = "array-or-vec-rs"
+name = "array-or-vec"
 version = "0.1.0"
 edition = "2018"
 

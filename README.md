@@ -7,12 +7,12 @@ Rust trait for generic functions that need either a compile-time array or a dyna
 Put this to your `Cargo.toml`:
 ```toml
 [dependencies]
-array-or-vec-rs = { "git" = "https://github.com/m13253/array-or-vec-rs" }
+array-or-vec = { "git" = "https://github.com/m13253/array-or-vec-rs" }
 ```
 
 Write your code that uses the trait:
 ```rust
-use array_or_vec_rs::ArrayOrVec;
+use array_or_vec::ArrayOrVec;
 use num::NumRef;
 
 fn sum<T, A>(a: &A) -> T
