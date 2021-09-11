@@ -29,4 +29,4 @@ where
 1. Why don't you publish your cargo to crates.io?
 
    Because I can't find a good name for this cargo.
-   Crates.io doesn't allow me to rename after I published.
+   Crates.io doesn't allow me to change the name after publishing.
